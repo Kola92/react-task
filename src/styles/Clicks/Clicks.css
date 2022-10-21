@@ -1,0 +1,78 @@
+.clicks__firstCol {
+  position: relative;
+}
+.clicks__firstCol .clicks__circleBadge {
+  width: 10px;
+  height: 10px;
+  background: #FF6A67;
+  border-radius: 50%;
+  position: absolute;
+  left: 50.6%;
+  top: 2.9%;
+  border: 2px solid #fff;
+}
+
+.clicks__touchIcon {
+  background-color: #2196f3;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clicks__touchIcon img {
+  height: 18px;
+  width: 18px;
+}
+
+.clicks__secondCol .clicks__stat {
+  display: flex;
+  align-items: baseline;
+}
+.clicks__secondCol .clicks__stat .clicks__secondCol--badge {
+  width: 37px;
+  height: 18px;
+  border-radius: 10px;
+  background-color: #FF6A67;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.8px 2.2px;
+  font-size: 0.75rem;
+  color: #fff;
+}
+.clicks__secondCol .clicks__stat h3 {
+  margin-right: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.clicks__secondCol h4 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.clicks__secondCol h4 span {
+  font-size: 0.75rem;
+}
+
+.clicks__grayText {
+  color: #A0B0B9;
+}
+
+.clicks__thirdCol h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #FF6A67;
+}
+.clicks__thirdCol p {
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+.clicks__thirdCol p a {
+  text-decoration: none;
+  color: #2196f3;
+}
+.clicks__thirdCol .clicks__grayText {
+  margin-bottom: 8px;
+  margin-top: 6px;
+}/*# sourceMappingURL=Clicks.css.map */

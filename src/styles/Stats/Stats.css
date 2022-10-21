@@ -1,0 +1,126 @@
+.stats__firstRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats__errors {
+  display: flex;
+  align-items: baseline;
+}
+.stats__errors h3 {
+  font-size: 1rem;
+}
+.stats__errors h4 {
+  font-size: 0.75rem;
+  color: #A0B0B9;
+}
+.stats__errors .stats__errors--badge {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #8BC34A;
+  margin-right: 0.5rem;
+}
+
+.stats__zeroes {
+  display: flex;
+  align-items: baseline;
+}
+.stats__zeroes h3 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.stats__zeroes h4 {
+  font-size: 0.75rem;
+  color: #A0B0B9;
+}
+.stats__zeroes .stats__zeroes--badge {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #8BC34A;
+  margin-right: 0.5rem;
+}
+
+.stats__timeouts {
+  display: flex;
+  align-items: baseline;
+}
+.stats__timeouts h3 {
+  font-size: 1rem;
+}
+.stats__timeouts h4 {
+  font-size: 0.75rem;
+  color: #A0B0B9;
+}
+.stats__timeouts .stats__timeouts--badge {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #8BC34A;
+  margin-right: 0.5rem;
+}
+
+.stats__secondRow {
+  margin-top: 0.938rem;
+}
+.stats__secondRow .progress .progress-bar:nth-child(1) {
+  background: #FFCC00;
+}
+.stats__secondRow .progress .progress-bar:nth-child(2) {
+  background: #5856D5;
+}
+.stats__secondRow .progress .progress-bar:nth-child(3) {
+  background: #2196f3;
+}
+.stats__secondRow .progress .progress-bar:nth-child(4) {
+  background: #A0B0B9;
+}
+
+.stats__thirdRow {
+  margin-top: 20px;
+}
+.stats__thirdRow .stats__metric {
+  display: flex;
+  justify-content: space-between;
+}
+.stats__thirdRow .stats__metric h3 {
+  margin-left: 5px;
+}
+.stats__thirdRow h3 {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.stats__metric-yellow, .stats__metric-blue, .stats__metric-purple, .stats__metric-gray {
+  display: flex;
+  align-items: baseline;
+}
+
+.stats__metric-yellow--badge {
+  width: 10px;
+  height: 10px;
+  background: #FFCC00;
+  border-radius: 2px;
+}
+
+.stats__metric-blue--badge {
+  width: 10px;
+  height: 10px;
+  background: #2196f3;
+  border-radius: 2px;
+}
+
+.stats__metric-purple--badge {
+  width: 10px;
+  height: 10px;
+  background: #5856D5;
+  border-radius: 2px;
+}
+
+.stats__metric-gray--badge {
+  width: 10px;
+  height: 10px;
+  background: #A0B0B9;
+  border-radius: 2px;
+}/*# sourceMappingURL=Stats.css.map */

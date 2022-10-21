@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #4a4a4a;
+}
+button,
+input {
+  font-family: "Open Sans", sans-serif;
+}
+button {
+  cursor: pointer;
+}
+.dashboard {
+  padding: 40px;
+}
+.dashboard h1 {
+  margin-bottom: 24px;
+}
+.analytics {
+  margin-top: 50px;
+}
+.analytics__firstRow,
+.analytics__secondRow {
+  margin-bottom: 63.45px;
+}

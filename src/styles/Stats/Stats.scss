@@ -1,0 +1,122 @@
+@import "../../Variables/Variables.scss";
+
+.stats__firstRow {
+  display: flex;
+  justify-content: space-between;
+}
+.stats__errors {
+  display: flex;
+  align-items: baseline;
+  h3 {
+    font-size: 1rem;
+  }
+  h4 {
+    font-size: 0.75rem;
+    color: $gullGray;
+  }
+  .stats__errors--badge {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: $green;
+    margin-right: 0.5rem;
+  }
+}
+.stats__zeroes {
+  display: flex;
+  align-items: baseline;
+  h3 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  h4 {
+    font-size: 0.75rem;
+    color: $gullGray;
+  }
+  .stats__zeroes--badge {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: $green;
+    margin-right: 0.5rem;
+  }
+}
+.stats__timeouts {
+  display: flex;
+  align-items: baseline;
+  h3 {
+    font-size: 1rem;
+  }
+  h4 {
+    font-size: 0.75rem;
+    color: $gullGray;
+  }
+  .stats__timeouts--badge {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: $green;
+    margin-right: 0.5rem;
+  }
+}
+.stats__secondRow {
+  margin-top: 0.938rem;
+
+  .progress {
+    .progress-bar:nth-child(1) {
+      background: $tangerineYellow;
+    }
+    .progress-bar:nth-child(2) {
+      background: $magenta;
+    }
+    .progress-bar:nth-child(3) {
+      background: $vividBlue;
+    }
+    .progress-bar:nth-child(4) {
+      background: $gullGray;
+    }
+  }
+}
+.stats__thirdRow {
+  margin-top: 20px;
+  .stats__metric {
+    display: flex;
+    justify-content: space-between;
+
+    h3 {
+      margin-left: 5px;
+    }
+  }
+  h3 {
+    font-size: .75rem;
+    font-weight: 600;
+  }
+}
+.stats__metric-yellow, .stats__metric-blue, .stats__metric-purple, .stats__metric-gray {
+  display: flex;
+  align-items: baseline;
+}
+.stats__metric-yellow--badge {
+  width: 10px;
+  height: 10px;
+  background: $tangerineYellow;
+  border-radius: 2px;
+}
+.stats__metric-blue--badge {
+  width: 10px;
+  height: 10px;
+  background: $vividBlue;
+  border-radius: 2px;
+}
+.stats__metric-purple--badge {
+  width: 10px;
+  height: 10px;
+  background: $magenta;
+  border-radius: 2px;
+}
+.stats__metric-gray--badge {
+  width: 10px;
+  height: 10px;
+  background: $gullGray;
+  border-radius: 2px;
+}

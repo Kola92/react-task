@@ -1,0 +1,27 @@
+@import "../../Variables/Variables.scss";
+
+.nav-tabs {
+  border: none !important;
+  margin-bottom: 2.8rem !important;
+  .nav-item {
+    border: 1px solid $lightGray !important;
+  }
+  .nav-item:first-of-type {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  .nav-item:last-of-type {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .nav-link.active {
+    border: none !important;
+    border-radius: 0;
+    background-color: $vividBlue !important;
+    color: $white !important;
+  }
+  .nav-link {
+    color: $darkGray !important;
+    font-weight: 400;
+  }
+}
